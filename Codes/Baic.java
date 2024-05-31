@@ -28,6 +28,16 @@ public class Baic{
         //cons=4;
 
     
+        //we use + to concate the writen data and variables
+        // System.out.println("Integer number is "+age);
+        // System.out.println("Long number is "+num);
+        // System.out.println("Float Number is "+num2);
+        // System.out.println("Double Number is "+num3);
+        // System.out.println("Alphabat is "+alphabat);
+        // System.out.println("Boolean value is "+mature);
+
+
+        // System.out.println("Constant "+cons);
     //------------------------------------------------------------------------------------------
     //non-primitive data type:
 
@@ -41,6 +51,10 @@ public class Baic{
     //so=ingle array
         int [] arr={11,2,3,4,4};
 
+        //arry have multiple methods 
+        //1.to calculate length (import Array to perform this methods)
+        //2.to sort the array
+
     //IF else statment
         if(age>18){
             mature=true;
@@ -48,17 +62,6 @@ public class Baic{
         else{
             mature=false;
         }
-
-        //we use + to concate the writen data and variables
-        // System.out.println("Integer number is "+age);
-        // System.out.println("Long number is "+num);
-        // System.out.println("Float Number is "+num2);
-        // System.out.println("Double Number is "+num3);
-        // System.out.println("Alphabat is "+alphabat);
-        // System.out.println("Boolean value is "+mature);
-
-
-        // System.out.println("Constant "+cons);
 
 
         // System.out.println("Array of 0 ="+arr[0]);
