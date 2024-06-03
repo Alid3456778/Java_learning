@@ -2,7 +2,9 @@ import java.io.*;
 import java.lang.*;
 import java.util.*;
 
-public class Superior{
+
+//creating Super class where its function can be inherit to sub class
+ class Superior{
     String name;
     public Superior(String name){
         this.name=name;
@@ -13,15 +15,17 @@ public class Superior{
     }
 }
 
-public class Sub extends Superior{
+//Sub class which inherit function from super class
+ class Sub extends Superior{
     String bread;
     public Sub(String name,String bread){
-        super(name);
+        super(name);//calling super class and calling its constructor
         this.bread=bread;
     }
     public void display(){
         System.out.println("Sub: "+bread);
         System.out.println("name: "+name);
+        show();//calling the super method
     }
 
 
