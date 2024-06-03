@@ -1,7 +1,7 @@
 import java.io.*;
 import java.lang.*;
 import java.util.*;
-//Inheritance single inheritance
+//Inheritance single inheritance , inheritance in constructor
 
 //creating Super class where its function can be inherit to sub class
  class Superior{
