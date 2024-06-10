@@ -1,3 +1,4 @@
+//collection Code 
 import java.util.*;//Use To Create a collection
 
 public class Collect{
