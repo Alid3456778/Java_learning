@@ -2,7 +2,7 @@
 public class Model{
 private int date=45;
 
-/
+
 
 class Car{
     void display(){
