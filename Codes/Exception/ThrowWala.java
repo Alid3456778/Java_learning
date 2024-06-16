@@ -30,7 +30,7 @@ public class ThrowWala{
                 throw new MathsException(a);
             }
             catch(MathsException e){
-                System.out.println("Caught Maths Exception");
+                System.out.println("Ct basaught Maths Exception");
                 }
                 
             

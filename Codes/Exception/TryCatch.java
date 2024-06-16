@@ -36,6 +36,11 @@ public class TryCatch{
             System.out.println("There is an error ");
             System.out.println(e);
         }
+        //it will print at any cost even if there try code work or not 
+        finally 
+        {
+            System.out.println("finally block executed");
+        }
         System.out.println("Program Ends");
     }
 }
