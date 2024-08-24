@@ -1,3 +1,4 @@
+
 // 1. void add(int index, Object element)
 // Inserts the specified element at the specified position index in this list. 
 // Throws IndexOutOfBoundsException if the specified index is out of range 
@@ -67,6 +68,22 @@ public class LinkedWalaList{
 
         //System.out.println(obj.get(1));
         obj.addFirst("Chicku");
+        obj.addLast("Grapes");
+        //obj.set(1,"Grapes");
+        //System.out.println(obj.get(1));
+        //System.out.println(obj.getLast());
+        //System.out.println(obj.getFirst());
+        //System.out.println(obj.indexOf("Mango"));
+        //System.out.println(obj.remove(1));
+        //System.out.println(obj.remove("Mango"));
+        //System.out.println(obj.removeFirst());
+        //System.out.println(obj.removeLast());
+        //System.out.println(obj.size());
+        //System.out.println(obj.isEmpty());
+        //System.out.println(obj.contains("Mango"));
+        //System.out.println(obj.contains("Chicku"));
+        //System.out.println(obj.contains("Grapes"));
+
         System.out.println(obj);
     }
 }
